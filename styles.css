@@ -1,0 +1,16 @@
+body {
+    background-color: whitesmoke;
+}
+
+.cont
+.tabsBackground {
+    background-color: rgb(23, 23, 23);
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
