@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(247, 250, 209);
+}
+
+.sideBar {
+    background-color: rgb(23, 23, 23);
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+h5{
+    color: rgb(58, 57, 57);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 8%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 70px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 70px;
+}
+
+h3 {
+    color: white;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 70px;
+}
+
+.space{
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    padding: 10px;
+    top: 48%;
+    left: 80%;
+    width: 400px;
+    height: 90%;;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+.content {
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    padding: 10px;
+    top: 48%;
+    left: 39%;
+    width: 800px;
+    height: 90%;;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 70px;
+}
+
+.now{
+    margin: 6px;
+    padding: 10px;
+    font-size: large;
+    color: black;
+    width: 115px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: -5px 0 0 rgb(5, 80, 66);
+    background-color: white;
+}
+
+.later {
+    margin: 6px;
+    padding: 10px;
+    color: rgb(157, 155, 155);
+}
+
+.later:hover{
+    background-color: cadetblue;
+    color: black;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    transform: translateX(10px);
+}
+
+#max {
+    position: absolute;
+    top: 850%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
