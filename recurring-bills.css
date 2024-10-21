@@ -58,20 +58,6 @@ h3 {
     height: 70px;
 }
 
-.space{
-    background-color: white;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin: 10px;
-    padding: 10px;
-    top: 48%;
-    left: 80%;
-    width: 400px;
-    height: 90%;;
-    border-radius: 10px;
-    box-shadow: 0 0 5px gray;
-}
-
 .content {
     background-color: white;
     position: absolute;
@@ -120,6 +106,116 @@ h3 {
     border-radius: 10px;
     transition: 0.3s ease-in-out;
     transform: translateX(10px);
+}
+
+.bills{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 52%;
+    left: 48%;
+    width: 750px;
+    height: 80%;
+}
+
+.p0{
+    position: absolute;
+    top: 10%;
+    opacity: 60%;
+}
+
+.p9{
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    font-weight: bold;
+}
+
+.bill1{
+    display: flex;
+    margin: 10px;
+    padding: 12px;
+    position: relative;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: -5px 0 0 rgb(66, 161, 224);
+    background-color: rgb(247, 250, 209);
+}
+.bill2{
+    display: flex;
+    margin: 10px;
+    padding: 12px;
+    position: relative;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: -5px 0 0 rgb(245, 249, 194);
+    background-color: rgb(247, 250, 209);
+}
+.bill3{
+    display: flex;
+    margin: 10px;
+    padding: 12px;
+    position: relative;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: -5px 0 0 rgb(47, 246, 210);
+    background-color: rgb(247, 250, 209);
+}
+.bill4{
+    display: flex;
+    margin: 10px;
+    padding: 12px;
+    position: relative;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: -5px 0 0 rgb(201, 131, 26);
+    background-color: rgb(247, 250, 209);
+}
+.bill5{
+    display: flex;
+    margin: 10px;
+    padding: 12px;
+    position: relative;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: -5px 0 0 rgb(215, 235, 67);
+    background-color: rgb(247, 250, 209);
+}
+
+.bill6{
+    display: flex;
+    margin: 10px;
+    padding: 12px;
+    position: relative;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: -5px 0 0 rgb(5, 80, 66);
+    background-color: rgb(247, 250, 209);
 }
 
 #max {

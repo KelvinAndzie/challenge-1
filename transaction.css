@@ -46,12 +46,20 @@ h2 {
     width: 100px;
     height: 70px;
 }
+.p1{
+    color: rgb(125, 196, 20);
+}
+
+.p2{
+    margin-top: -15px;
+    opacity: 40%;
+}
 
 .person {
     display: flex;
-    margin: 6px;
+    margin: 15px;
     padding: 10px;
-    position: absolute;
+    position: relative;
     top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -75,10 +83,17 @@ h3 {
         flex-direction: column;
         position: absolute;
         transform: translate(-50%, -50%);
-        top: 50%;
+        top: 45%;
         left: 48%;
         width: 750px;
         height: 80%;
+}
+
+.amount{
+    position: absolute;
+    margin: -20px;
+    top: 20%;
+    left: 85%;
 }
 
 .name {
@@ -96,10 +111,9 @@ h3 {
     padding: 10px;
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .icon2{
@@ -109,10 +123,9 @@ h3 {
     padding: 10px;
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .icon3{
@@ -122,10 +135,9 @@ h3 {
     padding: 10px;
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .icon4{
@@ -135,10 +147,9 @@ h3 {
     padding: 10px;
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .icon5{
@@ -148,10 +159,69 @@ h3 {
     padding: 10px;
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.icon6{
+    background-image: url('DACJ1233.JPG');
+    background-size: cover;
+    margin: 6px;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+.icon7{
+    background-image: url('EPGI3758.JPG');
+    background-size: cover;
+    margin: 6px;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+.icon8{
+    background-image: url('YCDA5248.JPG');
+    background-size: cover;
+    margin: 6px;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+.icon9{
+    background-image: url('IPBR9128.JPG');
+    background-size: cover;
+    margin: 6px;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+.icon10{
+    background-image: url('IMG_E2897.JPG');
+    background-size: cover;
+    margin: 6px;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
 }
 
 .content {
